@@ -3,10 +3,10 @@
 <TODO: complete this with an overview of your project>
 
 ## Project Plan
-<TODO: Project Plan
 
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+* https://trello.com/b/NjPD2o5q/udacity-project-6
+* quarterly plan spreadsheet [project-management.xlsx](docs/project-management.xlsx) 
+
 
 ## Instructions
 
@@ -42,7 +42,9 @@ Port: 443
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+Investigate if we can run this project serverless as a function 
+
+
 
 ## Demo
 
