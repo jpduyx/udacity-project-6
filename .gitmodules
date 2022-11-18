@@ -1,0 +1,3 @@
+[submodule "nd082-Azure-Cloud-DevOps-Starter-Code"]
+	path = nd082-Azure-Cloud-DevOps-Starter-Code
+	url = https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code.git
