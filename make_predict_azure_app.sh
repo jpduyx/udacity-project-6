@@ -2,6 +2,7 @@
 
 PORT=443
 echo "Port: $PORT"
+myappname=u6mlpredict  #your application name <yourappname>goes here
 
 # POST method predict
 curl -d '{
@@ -25,5 +26,4 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST https://<yourappname>.azurewebsites.net:$PORT/predict
-     #your application name <yourappname>goes here
+     -X POST https://${myappname}.azurewebsites.net:$PORT/predict
