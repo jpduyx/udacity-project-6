@@ -14,7 +14,7 @@ variables:
   webAppName: 'u6mlPredict'
 
   # Agent VM image name
-  vmImageName: 'ubuntu-latest'
+  vmImageName: 'ubuntu-22.04'
 
   # Environment name
   environmentName: 'u6mlPredict'
