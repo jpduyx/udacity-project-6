@@ -8,7 +8,7 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureServiceConnectionId: '1707aac3-8b6d-4cf1-ae84-442fd62f2fe4'
+  azureServiceConnectionId: '6821030c-f52b-4f41-9e7e-0c9f80668c45'
 
   # Web app name
   webAppName: 'u6mlPredict'
