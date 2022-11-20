@@ -42,11 +42,10 @@ Port: 443
 
 ## Enhancements
 
-Investigate if we can run this project serverless as a function 
+Investigate if we can run this project serverless as a function or as a docker container to avoid dependency issues on the target machine
 
 
 
 ## Demo
 
-<TODO: Add link Screencast on YouTube>
 http://duyx.nl/jp/screencastudacityproject6.webm
