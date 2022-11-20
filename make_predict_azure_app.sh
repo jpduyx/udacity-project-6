@@ -2,7 +2,7 @@
 
 PORT=443
 echo "Port: $PORT"
-myappname=u6mlpredict  #your application name <yourappname>goes here
+myappname=azureMLp6  #your application name <yourappname>goes here
 
 # POST method predict
 curl -d '{
