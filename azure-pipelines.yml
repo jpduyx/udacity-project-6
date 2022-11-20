@@ -14,7 +14,7 @@ variables:
   webAppName: 'azureMLp6'
 
   # Agent VM image name
-  vmImageName: 'linux-20.04'
+#  vmImageName: 'ubuntu-20.04'
 
   # Environment name
   environmentName: 'azureMLp6'
@@ -23,7 +23,7 @@ variables:
   projectRoot: $(System.DefaultWorkingDirectory)
 
 
-  pythonVersion: '3.10'
+#  pythonVersion: '3.10'
 
 stages:
 - stage: Build
@@ -32,11 +32,6 @@ stages:
   - job: BuildJob
     pool: selfhosted
     steps:
-    - task: UsePythonVersion@0
-      inputs:
-        versionSpec: '$(pythonVersion)'
-      displayName: 'Use Python $(pythonVersion)'
-
     - script: |
         python3 -m venv antenv
         source antenv/bin/activate
@@ -71,12 +66,6 @@ stages:
       runOnce:
         deploy:
           steps:
-
-          - task: UsePythonVersion@0
-            inputs:
-              versionSpec: '$(pythonVersion)'
-            displayName: 'Use Python version'
-
           - task: AzureWebApp@1
             displayName: 'Deploy Azure Web App : azureMLp6'
             inputs:
