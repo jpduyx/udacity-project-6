@@ -31,7 +31,6 @@ stages:
   jobs:
   - job: BuildJob
     pool: selfhosted
-      vmImage: $(vmImageName)
     steps:
     - task: UsePythonVersion@0
       inputs:
@@ -67,7 +66,6 @@ stages:
   jobs:
   - deployment: DeploymentJob
     pool: selfhosted
-      vmImage: $(vmImageName)
     environment: $(environmentName)
     strategy:
       runOnce:
