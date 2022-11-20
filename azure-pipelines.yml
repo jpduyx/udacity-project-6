@@ -14,7 +14,7 @@ variables:
   webAppName: 'azureMLp6'
 
   # Agent VM image name
-  vmImageName: 'ubuntu-latest'
+  vmImageName: 'ubuntu-20.04'
 
   # Environment name
   environmentName: 'azureMLp6'
@@ -23,7 +23,7 @@ variables:
   projectRoot: $(System.DefaultWorkingDirectory)
 
 
-  pythonVersion: '3.10.8'
+  pythonVersion: '3.10'
 
 stages:
 - stage: Build
